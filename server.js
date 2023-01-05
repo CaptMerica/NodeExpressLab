@@ -24,7 +24,7 @@ app.get('/home', function(req,res){
   res.render('home')
 })
 
-app.get ('/eliteFourTrainers', function (req, res) {
+app.get ('/elitefourtrainers', function (req, res) {
   res.render('eliteFourTrainers/index', {
     eliteFourTrainers: eliteFourTrainers
   })
