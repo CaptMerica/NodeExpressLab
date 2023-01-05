@@ -1,0 +1,12 @@
+<body>
+  <h1>Elite Four Trainers</h1>
+  <ul>
+    <% eliteFourTrainers.forEach(eliteFourTrainers => { %>
+      <li>
+				<%= eliteFourTrainers.text %> 
+				- 
+				<%= eliteFourTrainers.done ? 'done' : 'not done' %>
+			</li>
+    <% }) %>
+  </ul>
+</body>
