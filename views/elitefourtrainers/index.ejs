@@ -1,11 +1,15 @@
 <body>
   <h1>Elite Four Trainers</h1>
   <ul>
-    <% eliteFourTrainers.forEach(eliteFourTrainers => { %>
+    <% eliteFourTrainers.forEach(eliteFour => { %>
       <li>
-				<%= eliteFourTrainers.text %> 
+				<%= eliteFourTrainers.name %> 
 				- 
-				<%= eliteFourTrainers.done ? 'done' : 'not done' %>
+				<%= eliteFourTrainers.typeSpecialty%>
+
+        <%= eliteFourTrainers.pokemon %>
+
+    
 			</li>
     <% }) %>
   </ul>
